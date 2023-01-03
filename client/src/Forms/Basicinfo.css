@@ -1,0 +1,79 @@
+
+.form-basicinfo{
+    margin-top: -45%;
+    margin-left: 17%;
+    position: relative;
+    padding-bottom: 30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+.form-basicinfo .form {
+    
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+
+
+.form-basicinfo .form-container1 {
+    margin: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+
+    
+}
+
+.form-basicinfo .input {
+    width: 50vh;
+    height: 5vh;
+    color: #7D7D7D;
+    border: 1px solid #C3C3C3;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.form-basicinfo .SaveBtn{
+    background-color:#4C57B6;
+}
+
+
+.form-basicinfo h3 {
+    margin: 3%;
+    padding: 1%;
+    text-align: left;
+    font-size: 22px;
+    color: #7D7D7D;
+    font-size: 20px;
+
+}
+
+
+
+.form-basicinfo .form-container2 {
+    margin: 2%;
+    margin-left: -10%;
+
+    padding: 1%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.form-basicinfo button{
+    background-color:#6AB4F8;
+    padding: 10px 15px;
+    border:1px solid #6AB4F8;
+    border-radius: 25px;
+    color: white;
+    margin-right: 10px; 
+    margin-top: -20px;
+}
+.form-basicinfo .buttons{
+    margin-left: 0%;
+    /* margin-top: 80px; */
+}

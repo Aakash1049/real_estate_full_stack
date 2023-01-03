@@ -1,0 +1,78 @@
+
+
+.generalInfo{
+    position: relative;
+    margin-top: -45%;
+    margin-left: 230px;
+    border: 1px solid white;
+    max-width: fit-content;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: start;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.generalInfo div{
+    margin: 12px 12px;
+}
+.generalInfo label{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start;
+    color: #7D7D7D;
+    padding-left: 30px;
+}
+.generalInfo input, .generalInfo select, .generalInfo option{
+    /* width: 95%;
+    border:1px solid #7D7D7D;
+    border-radius: 5px;
+    height: 30px; */
+    width: 50vh;
+    height: 5vh;
+    color: #7D7D7D;
+    border: 1px solid #C3C3C3;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.generalInfo #postedBy{
+    height: 35px;
+}
+.generalInfo .a{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    margin-top: -10px;
+    /* padding-left: 30px; */
+}
+.generalInfo input[type="file"]{
+    display: none;
+    max-width: 15%;
+    border-radius: 100%;   
+}
+.generalInfo #photo-label{
+  cursor: pointer;
+  padding: 22px 25px;
+  color: #fff;
+  background:#6AB4F8;
+  border-radius: 50%;
+}
+.generalInfo .photo{
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.generalInfo button{
+    background-color:#6AB4F8;
+    padding: 10px 15px;
+    border:1px solid #6AB4F8;
+    border-radius: 25px;
+    color: white;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.generalInfo .SaveBtn{
+    background-color:#4C57B6;
+}
+.generalInfo .buttons{
+    margin-left: 40%;
+}

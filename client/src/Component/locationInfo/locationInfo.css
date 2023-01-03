@@ -1,0 +1,78 @@
+
+
+.locationInfo{
+    /* position: relative;
+    margin-top:-45%;
+    margin-left: 290px;
+    border: 1px solid white;
+    max-width: fit-content;
+    background-color:white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: start;
+    overflow: hidden; */
+    position: relative;
+    margin-top: -45%;
+    margin-left: 230px;
+    border: 1px solid white;
+    max-width: fit-content;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: start;
+    overflow-x: hidden;
+}
+.locationInfo div{
+    margin: 4px;
+    margin-bottom: 10px;
+}
+.locationInfo label{
+    /* font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start;
+    color: #7D7D7D; */
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start;
+    color: #7D7D7D;
+    padding-left: 30px;
+}
+.locationInfo input{
+    /* width: 95%;
+    border:1px solid #7D7D7D;
+    border-radius: 5px;
+    height: 30px; */
+    width: 50vh;
+    height: 5vh;
+    color: #7D7D7D;
+    border: 1px solid #C3C3C3;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+/* .locationInfo #postedBy{
+    height: 35px;
+} */
+.locationInfo .a{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    font-size: 10px;
+
+}
+
+.locationInfo button{
+    background-color:#6AB4F8;
+    padding: 10px 15px;
+    border:1px solid #6AB4F8;
+    border-radius: 25px;
+    color: white;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.locationInfo .buttons{
+    margin-left: 40%;
+}
+.locationInfo .SaveBtn{
+    background-color:#4C57B6;
+}
